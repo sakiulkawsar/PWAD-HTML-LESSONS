@@ -1,52 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body>
-    <h3>personal details from</h3>
-    <from action="">
-        <fieldset>
-
-            <legend>Log information</legend>
-            <input type="text" name="" placeholder="Enter your name"> <br>
-            <textarea name="" id="" placeholder="Enter your Address"></textarea> <br>
-            Gender <br>
-            <select name="district" id="" required>
-            <input type="radio" name="Gender" Male>
-            <input type="radio" name="Gender" Female>
-            <br>
-            <option value="">Select one</option>
-            <optiongrup label="comilla"> 
-                <option value="">comilla</option>
-                  <option value="">Feni</option>
-                 </optiongrup>
-                 </select>
-
-        </fieldset>
-
-
-
-
-        <br>
-        <fieldset>
-            <legend>Login</legend>
-        </fieldset>
-        <fieldset>
-            <legend>log information</legend>
-            <input type="text" name="" placeholder="Enter your email"> <br>
-            <input type="password" name="password" placeholder="enter your password"> <br>
-
-        </fieldset>
-        <button type="submit"> SUBTIT</button>
-        <button type="reset">Reset</button>
-
-    </from>
-
-</body>
-
+  </head>
+  <body>
+    <h3>Personal details from</h3>
+    Gender <br />
+    <input type="radio" name="Gender" Male />
+    <input type="radio" name="Gender" Female />
+    <form action="">
+      <fieldset>
+        <legend>Personal information</legend>
+        <input type="text" name="fullname" placeholder="Enter your name" />
+        <br />
+        <textarea
+          name="address"
+          id=""
+          placeholder="Enter your Address"
+        ></textarea>
+        <br />
+        <select name="district" id="" required>
+          <option value="">Select one</option>
+          <optgroup label="dhala">
+            <option>Dhaka</option>
+            <option>Narayangonj</option>
+          </optgroup>
+          <optgroup label="comilla">
+            <option>comilla</option>
+            <option>feni</option>
+          </optgroup>
+        </select>
+      </fieldset>
+    </form>
+    <h3>Log information</h3>
+    <form action="">
+      <fieldset>
+        <legend>Log information</legend>
+        <input type="text" id="" placeholder="Enter your email" /> <br />
+        <input type="password" id="" placeholder="Enter your password" /> <br />
+      </fieldset>
+    </form>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </body>
 </html>
