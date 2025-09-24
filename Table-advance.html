@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: aqua;
+        }
+
+        tbody {
+            background-color:green;
+        }
+
+        tfoot {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Product table</h3>
+    <table>
+        <caption>Product list with price</caption>
+        
+        <thead>
+            <th>Product code</th>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1010</td>
+                <td>samsung</td>
+                <td>2200</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>1011</td>
+                <td>Apple</td>
+                <td>55000</td>
+                <td>05</td>
+            </tr>
+            <tr>
+                <td>1001</td>
+                <td>Samphony</td>
+                <td>1500</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>1+</td>
+                <td>15000</td>
+                <td>25</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <th>150</th>
+                <th>750</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
