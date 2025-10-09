@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Student Registration form</h3>
+    <label for="">Roll no:</label>
+    <input type="text" id="" placeholder="Enter your roll"> <br>
+    <label for="">Studen name</label>
+    <input type="text" id="" placeholder="Enter your name"> <br>
+    <label for="">Father name</label>
+    <input type="text" id="" placeholder="Enter your father name"> <br>
+    <label for="">Date of birth</label>
+    <input type="date" id="" placeholder="Enter your birth date"> <br>
+    <label for="">Mobile no </label>
+    <input type="number" id="" placeholder="Enter your number"> <br>
+    <label for="">Email id </label>
+    <input type="text" id="" placeholder="Enter your email id"> <br>
+    <label for="">Passord </label>
+    <input type="Passord" id="" placeholder="Enter your Passord"> <br>
+    Gender <br>
+    <input type="radio" name="gender" id="male">Male <br>
+    <input type="radio" name="gender" id="female">Female <br>
+    Depertment <br>
+    <input type="checkbox" name="dept" value="cse">CSE
+    <input type="checkbox" name="dept" value="it">IT
+    <input type="checkbox" name="dept" value="cec">CEC
+    <input type="checkbox" name="dept" value="civil">CIVIL
+    <input type="checkbox" name="dept" value="mcch">MCCH <br>
+   <label for=""> Course </label>
+    <select name="" id="" required>
+        <label for="">Select curren curse-</label>
+        <option value="">-------------------Select curren curse---------------</option>
+        <option>CSE</option>
+        <option>EEE</option>
+
+    </select> <br>
+
+   <label for="">Student photo </label>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="myfile">Choose a file:</label><br><br>
+        <input type="file" id="myfile" name="myfile"><br><br>
+
+        <input type="submit" value="Upload File">
+    </form>
+    <label for=""> City</label>
+    <select name="district" id="" required>
+        <option value="">Select one</option>
+        <optgroup label="dhala">
+            <option>Dhaka</option>
+            <option>Narayangonj</option>
+
+    </select><br>
+
+  <label for="">Address</label> 
+    <textarea name="" id="" placeholder="Enter your address"></textarea>
+
+</body>
+
+</html>
