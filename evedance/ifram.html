@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1000px;
+        }
+
+        .left-bar {
+            width: 300px;
+            background-color: aquamarine;
+            height: 200px;
+            float: left;
+        }
+
+        .right-bar {
+            width: 700px;
+            background-color: #dddd;
+            height: 200px;
+            float: left;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-bar">
+            <p><a href="table1.html" target="click">Table 1</a></p>
+            <p><a href="form1.html" target="click">Form 1</a></p>
+        </div>
+        <div class="right-bar">
+            <iframe src="table1.html" name="click" width="600ppx" height="400px" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
