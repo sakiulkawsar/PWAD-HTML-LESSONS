@@ -7,36 +7,35 @@
     <title>Document</title>
     <style>
         .container {
-            width: 1000px;
+            width: 1200px;
         }
-
-        .left-bar {
+        .box1 {
             width: 300px;
-            background-color: aquamarine;
-            height: 200px;
+            border: 1px solid black;
             float: left;
+            background-color: aliceblue;
         }
-
-        .right-bar {
-            width: 700px;
-            background-color: #dddd;
-            height: 200px;
-            float: left;
-            border-radius: 4px;
+             .box2 {
+            width: 850px;
+            border: 1px solid black;
+             float: left;
+             background-color: aqua;
         }
     </style>
+    
+    </style>
 </head>
-
-<body>
-    <div class="container">
-        <div class="left-bar">
-            <p><a href="table1.html" target="click">Table 1</a></p>
-            <p><a href="form1.html" target="click">Form 1</a></p>
-        </div>
-        <div class="right-bar">
-            <iframe src="table1.html" name="click" width="600ppx" height="400px" frameborder="0"></iframe>
-        </div>
+<div class="container">
+   
+     <div class="box1">
+       <p><a href="table1.html" target="click">Table</a></p> 
+       <p><a href="form1.html" target="click">Form</a></p> 
     </div>
+     <div class="box2">
+      <iframe src="table1.html" name="click" frameborder="0" height="300px" width="500px"></iframe>  
+    </div>
+</div>
+
 </body>
 
 </html>

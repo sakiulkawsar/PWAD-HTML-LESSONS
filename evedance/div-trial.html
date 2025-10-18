@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 100%;
+            display: flex;
+            height: 300px;
+        }
+
+        .box1 {
+            display: flex;
+            flex: 1;
+            width: 50%;
+            border: 1px solid black;
+            background-color: bisque;
+        }
+
+        .box2 {
+            display: flex;
+            flex: 1;
+            width: 50%;
+            border: 1px solid black;
+            background-color: brown;
+        }
+
+        .div {
+            float: left;
+            background-color: bisque;
+            width: 100%;
+        }
+
+        .container-middle {
+            min-width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">
+            <div></div>
+            <div></div>
+            <div class="container-middle"></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="box2">
+            <div></div>
+            <div></div>
+            <div class="container-middle"></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>
